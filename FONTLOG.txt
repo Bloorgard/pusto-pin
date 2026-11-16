@@ -1,0 +1,38 @@
+FONTLOG for the Pusto Pin font
+==============================
+
+This file provides detailed information on the Pusto Pin font family.
+This information should be distributed along with the Pusto Pin fonts
+and any derivative works.
+
+
+Basic Font Information
+----------------------
+
+Pusto Pin is a rounded unicase stroke typeface by Pustota, supporting
+Latin and Cyrillic. It was drawn for the Pusto pins. It is developed in
+Glyphs and distributed here in OTF and web (WOFF, WOFF2) formats.
+
+
+ChangeLog
+---------
+
+17 Nov 2026 (Pustota)  Pusto Pin v0.004
+- Renamed from the working title "PP Pusto"
+- Added .notdef (peace sign)
+- Aligned straight letters to the 0-700 cap height
+- Unfinished Georgian glyphs excluded from export
+- First public repository, OFL 1.1
+
+
+Acknowledgements
+----------------
+
+If you make modifications be sure to add your name (N), email (E),
+web-address (if you have one) (W) and description (D). This list is in
+alphabetical order.
+
+N: Pustota
+E: peter@pustota.name
+W: https://pustota.name
+D: Designer and maintainer

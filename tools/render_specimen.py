@@ -31,7 +31,7 @@ ACCENT = (232, 90, 60)
 WIDTH = 1600          # image width in layout px (rendered at 2x)
 MARGIN = 90           # side/top/bottom padding
 
-LABEL = "PUSTOTA / UNICASE STROKE TYPEFACE / v0.005"
+LABEL = "PUSTOTA / UNICASE STROKE TYPEFACE / v0.007"
 TITLE = "PUSTO PIN"
 
 # Sample lines: (text, size, color)
@@ -107,7 +107,7 @@ def charset_rows():
         collect(0x0041, 0x005A),                                       # Latin upper
         collect(0x0061, 0x007A) + "  " + collect(0x0030, 0x0039),      # Latin lower + digits
         "".join(chr(c) for c in sorted(cmap) if 0x2190 <= c <= 0x21FF),  # arrows
-        "( ) [ ] { }   " + "".join(chr(c) for c in [0x2013, 0x2014, 0x00AB, 0x00BB, 0x201C, 0x201D,
+        " ".join(c for c in "()[]{}" if ord(c) in cmap) + "   " + "".join(chr(c) for c in [0x2013, 0x2014, 0x00AB, 0x00BB, 0x201C, 0x201D,
             0x2018, 0x2019, 0x00B7, 0x2022, 0x2026, 0x0040, 0x0026, 0x0023, 0x0025, 0x00A9, 0x00AE,
             0x2122, 0x00A7, 0x00B0] if c in cmap),                     # brackets + symbols
     ]

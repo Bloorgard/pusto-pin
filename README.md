@@ -7,7 +7,7 @@ Born for the Pusto pins, it comes with a few emoticon ligatures built in.
 
 [![License: OFL 1.1](https://img.shields.io/badge/license-OFL%201.1-success)](LICENSE)
 
-> Early work in progress (v0.005): spacing and kerning are not done yet.
+> Early work in progress (v0.007): spacing and kerning are not done yet.
 
 ---
 

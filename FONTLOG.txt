@@ -17,6 +17,11 @@ Glyphs and distributed here in OTF and web (WOFF, WOFF2) formats.
 ChangeLog
 ---------
 
+17 Nov 2026 (Pustota)  Pusto Pin v0.005
+- Fixed sidebearings of Cyrillic U, Zhe and Ie
+- Raised the dieresis of Io and shortened the hook of the question mark,
+  so the gaps print on a 0.4 mm nozzle
+
 17 Nov 2026 (Pustota)  Pusto Pin v0.004
 - Renamed from the working title "PP Pusto"
 - Added .notdef (peace sign)

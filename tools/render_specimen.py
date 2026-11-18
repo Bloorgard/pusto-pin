@@ -31,7 +31,7 @@ ACCENT = (232, 90, 60)
 WIDTH = 1600          # image width in layout px (rendered at 2x)
 MARGIN = 90           # side/top/bottom padding
 
-LABEL = "PUSTOTA / UNICASE STROKE TYPEFACE / v0.004"
+LABEL = "PUSTOTA / UNICASE STROKE TYPEFACE / v0.005"
 TITLE = "PUSTO PIN"
 
 # Sample lines: (text, size, color)

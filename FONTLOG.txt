@@ -17,6 +17,13 @@ Glyphs and distributed here in OTF and web (WOFF, WOFF2) formats.
 ChangeLog
 ---------
 
+18 Nov 2026 (Pustota)  Pusto Pin v0.008
+- New: ellipsis, middle dot, single low quote, bar, braces, degree,
+  multiplication sign, tilde, ruble sign, no-break space
+- Spacing of punctuation and symbols; math signs share a 620 width
+- Io dieresis aligned to the Ii-short breve height
+- Partial Georgian removed from export
+
 18 Nov 2026 (Pustota)  Pusto Pin v0.007
 - Spacing pass: sidebearings of letters and figures set from the white
   area at each edge, calibrated on H (70) and O (55)
